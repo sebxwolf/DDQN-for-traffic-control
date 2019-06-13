@@ -145,8 +145,8 @@ class DoubleDQN:
         """
         # Sample mini batch
         states_m, actions_m, rewards_m, states_m_p, done_m = self.memory.sample(self.batch_size)
-        states_m = np.array([[np.sum(states_m[:,15]+states_m[:,17]),np.sum(states_m[:,16]+states_m[:,18])]])
-        states_m_p = np.array([[np.sum(states_m_p[:,15]+states_m_p[:,17]),np.sum(states_m_p[:,16]+states_m_p[:,18])]])
+        states_m = np.array([states_m[:,15]+states_m[:,17],states_m[:,16]+states_m[:,18]]).T
+        states_m_p = np.array([states_m_p[:,15]+states_m_p[:,17],states_m_p[:,16]+states_m_p[:,18]]).T
 
         # randomly swap the target and active networks
         # if np.random.uniform() < 0.5:
@@ -157,6 +157,7 @@ class DoubleDQN:
 
         #import pdb; pdb.set_trace()
         # attach q-values to states
+
         target_batch = self.q_network.predict(states_m)
         next_state_q = self.target_q_network.predict(states_m_p)
 
