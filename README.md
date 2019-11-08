@@ -4,7 +4,9 @@
 
 
 Master thesis of Data Science BGSE masters program
+
 Authors: Monika Matyja, Sebastian Wolf and Jordi Morera
+
 Supervisors: Hrvoje Stojic and Anestis Papanikolaou
 
 ### Thesis description
