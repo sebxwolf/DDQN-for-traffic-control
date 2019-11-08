@@ -6,7 +6,7 @@ Authors: Monika Matyja, Sebastian Wolf and Jordi Morera
 
 Supervisors: Hrvoje Stojic and Anestis Papanikolaou
 
-![](ddqm_traffic_demo.gif)
+![](ddqn_traffic_demo.gif)
 
 ### Thesis description
 
