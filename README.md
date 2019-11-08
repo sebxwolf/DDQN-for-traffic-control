@@ -3,11 +3,9 @@
 ![](ddqn_traffic_demo.gif)
 
 
-Master thesis of Data Science BGSE masters program
-
-Authors: Monika Matyja, Sebastian Wolf and Jordi Morera
-
-Supervisors: Hrvoje Stojic and Anestis Papanikolaou
+*Master's thesis - BGSE Data Science*  
+*Authors: Monika Matyja, Sebastian Wolf and Jordi Morera*  
+*Supervisors: Hrvoje Stojic and Anestis Papanikolaou*
 
 ### Thesis description
 
